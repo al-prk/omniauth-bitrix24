@@ -1,0 +1,1 @@
+require 'omniauth/bitrix24'

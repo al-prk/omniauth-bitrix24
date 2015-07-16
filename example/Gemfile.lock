@@ -1,0 +1,56 @@
+PATH
+  remote: ../
+  specs:
+    omniauth-bitrix24 (0.1.0)
+      omniauth-oauth2 (~> 1.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    backports (3.6.5)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    hashie (3.4.2)
+    jwt (1.5.1)
+    multi_json (1.11.2)
+    multi_xml (0.5.5)
+    multipart-post (2.0.0)
+    oauth2 (1.0.0)
+      faraday (>= 0.8, < 0.10)
+      jwt (~> 1.0)
+      multi_json (~> 1.3)
+      multi_xml (~> 0.5)
+      rack (~> 1.2)
+    omniauth (1.2.2)
+      hashie (>= 1.2, < 4)
+      rack (~> 1.0)
+    omniauth-oauth2 (1.3.1)
+      oauth2 (~> 1.0)
+      omniauth (~> 1.2)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    sinatra (1.4.6)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    sinatra-contrib (1.4.6)
+      backports (>= 2.0)
+      multi_json
+      rack-protection
+      rack-test
+      sinatra (~> 1.4.0)
+      tilt (>= 1.3, < 3)
+    sinatra-reloader (1.0)
+      sinatra-contrib
+    tilt (2.0.1)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  omniauth-bitrix24!
+  sinatra
+  sinatra-reloader
