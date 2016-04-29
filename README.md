@@ -29,6 +29,13 @@ Be sure to define callback URL in application version settings at [partner contr
   end
 ```
 
+With user, crm and task scope:
+```ruby
+  Rails.application.config.middleware.use OmniAuth::Builder do
+      provider :bitrix24, 'https://myportal.bitrix24.ru', '<<<client_id>>>', '<<<client_secret>>>', token_params: {:scope => 'user,crm,task'}
+  end
+```
+
 Also you can see dead-simple example in *example* directory
 
 
